@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+.body{
+    background-color: white;
+}
+
+.exploring h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.exploring hr{
+    color: tomato;
+    width: 10%;
+    height: 1px;
+    border: none;
+    background-color: red;
+}
+
+.left-waste{
+    background-color:cadetblue;
+    width: 50px;
+    height: 350px;
+    margin-top: 150px;
+    display: flex; 
+
+}
+
+.author-image img{
+  margin-left: 50px;
+  font-size: 30px;
+  position: absolute;
+  top: -0.1px;
+}
+
