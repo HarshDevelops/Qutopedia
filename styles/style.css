@@ -4,26 +4,25 @@
     background-color: white;
 }
 
-.initial{
+.exploring h6{
     font-family: 'Montserrat', sans-serif;
     font-weight: 10px;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
-    margin-top: -50px;
 }
 
-.initial hr{
+.exploring hr{
     color: tomato;
     width: 26%;
-    margin-top: -70px;
     height: 1px;
     border: none;
     background-color: red;
 }
 
-.categories a img{
+.categoriess a img{
     height: 50px;
     width: 50px;
+    
 }
 
 .cat1{
@@ -38,18 +37,21 @@
     justify-content: center;
     text-decoration: none;
 }
-.row-1{
+.roww-1{
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 
-.row-2{
+.roww-2{
     display: flex;
     justify-content: center;
     margin: 0px auto;
-    left: 20px;
+    right: 30%;
+    position: absolute;
+    cursor: pointer;
 }
 
 .cat2{
@@ -62,5 +64,20 @@
     margin: 0px auto;
     display: flex;
     justify-content: center;
-    text-decoration: none;   
+    text-decoration: none; 
 }
+
+.roww-1 a h4,.roww-2 a h4{
+    color: black;
+    text-decoration: none;
+}
+.roww-1 a,.roww-2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.roww-1 .ir1:hover{
+    color: salmon;  
+}
+
+
