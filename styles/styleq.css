@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
-.body{
-    background-color: white;
+body{
+    /* background-color: pink; */
+    background-image: url("/images/normal.png");
+    object-fit: cover;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .exploring h6{
@@ -43,7 +46,7 @@
     height: 400px;
     /* margin-left: 60%; */
     /* margin-right: 20px; */
-    margin-left: 1100px ;
+    margin-left: 550px ;
     border: 15px solid cadetblue;
     border-radius: 25px;
     background-color: whitesmoke;
@@ -78,9 +81,12 @@
 }
 
 
-.author-name{
-    margin-left: 650px;
-    margin-top: 120px;
+#author-name-p{
+    margin-right: 0;
+    display: flex;
+    justify-content: right;
+    margin-top: 0;
+    margin-bottom: 0px;
 }
 
 .author-name p{
@@ -96,8 +102,8 @@
     background-image: -ms-linear-gradient(top, #5F9EA0, #5F9EA0);
     background-image: -o-linear-gradient(top, #5F9EA0, #5F9EA0);
     background-image: linear-gradient(to bottom, #5F9EA0, #5F9EA0);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
     border-radius: 28px;
     font-family: Arial;
     color: #ffffff;
@@ -119,4 +125,16 @@
     text-decoration: none;
   }
 
-  
+  .gen-more{
+      margin-left: 1100px;
+      height: 20px;
+      width: 320px;
+    margin-top: 150px;
+
+  }
+
+  #hme img{
+    height: 40px;
+    width: 60px;
+    margin-left: 70px;
+  }
