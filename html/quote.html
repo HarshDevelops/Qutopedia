@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/styleq.css">
+    <!-- <link rel="stylesheet" href="styleq.css"> -->
+    <link href="./styleq.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <title>Quotopedia</title>
 </head>
 
@@ -20,12 +22,13 @@
 
     <div class="left-waste">
         <div class="author-image">
-            <img src="/images/Rabindranath_Tagore_unknown_location.jpg" alt="Rabindra Nath Tagore">
+            <!-- <img src="/Quotopedia/public/Rabindranath_Tagore_unknown_location.jpg" alt="Rabindra Nath Tagore"> -->
+            <img src="./Rabindranath_Tagore_unknown_location.jpg" alt="Rabindra Nath Tagore">
         </div>
 
         <div class="qspace">
             <div class="quote-logo">
-                <img src="/images/left-quote (1).png" alt="">
+                <img src="./left-quote (1).png" alt="">
             </div>
 
             <div class="text-area">
@@ -35,13 +38,15 @@
             </div>
         </div>
         <div class="gen-more">
-
-            <button class="more" onclick="genmore();"> MORE</button>
+            <form action="/" method="post">
+            <!-- <button class="more" onclick="genmore();"> MORE</button> -->
+            <button class="more"> MORE</button>
             <br>
-            <a href="#" id="hme"><img src="/images/home.png" alt=""></a>
+        </form>
+            <a href="#" id="hme"><img src="./home.png" alt="home"></a>
         </div>
     </div>
-    <script src="quoteapp.js"></script>
+    <script src="/Quotopedia/quoteapp.js"></script>
 </body>
 
 </html>
